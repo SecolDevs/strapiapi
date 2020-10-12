@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "songs",
+  "info": {
+    "name": "Song",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "author": {
+      "model": "author"
+    }
+  }
+}

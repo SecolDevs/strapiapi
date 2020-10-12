@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/premium-songs",
+      "handler": "premium-song.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/premium-songs/count",
+      "handler": "premium-song.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/premium-songs/:id",
+      "handler": "premium-song.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/premium-songs",
+      "handler": "premium-song.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/premium-songs/:id",
+      "handler": "premium-song.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/premium-songs/:id",
+      "handler": "premium-song.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

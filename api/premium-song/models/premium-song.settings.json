@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "premium_songs",
+  "info": {
+    "name": "Premium_Song",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "author": {
+      "model": "author"
+    }
+  }
+}
